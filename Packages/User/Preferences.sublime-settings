@@ -1,0 +1,11 @@
+{
+	"color_scheme": "Packages/Theme - Flatland/Flatland Monokai.tmTheme",
+	"font_size": 10,
+	"ignored_packages":
+	[
+		"Vintage",
+		"Color Highlighter",
+		"SideBarEnhancements"
+	],
+	"theme": "Nexus.sublime-theme"
+}

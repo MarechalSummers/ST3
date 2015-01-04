@@ -1,0 +1,27 @@
+{
+	"installed_dependencies":
+	[
+		"0_package_control_loader",
+		"bz2"
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Alignment",
+		"Color Highlighter",
+		"Emmet",
+		"File Rename",
+		"Inc-Dec-Value",
+		"jQuery",
+		"Minifier",
+		"Package Control",
+		"PackageResourceViewer",
+		"RegExLink",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"Theme - Afterglow",
+		"Theme - Flatland",
+		"Theme - Nexus",
+		"Theme - Phoenix"
+	]
+}

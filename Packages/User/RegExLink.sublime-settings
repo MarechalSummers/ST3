@@ -1,0 +1,20 @@
+{
+   "regex_link_mark_style": "circle", // alternatives are: dot, circle, bookmark and cross
+   "regex_link_def": [
+      // URL 
+      { 
+         "name" : "Url",
+         "regex" : "(http://[^\\s]+)",
+         "link" : "$1",
+         "style": "comment"  // alternatives are: string, invalid, variable, comment, variable.parameter
+      },
+      // Wowhead comments
+      { 
+         "name" : "Wowhead",
+         //"regex" : "#((\\-){0, 1}[0-9]+)/(?i)(achievement|class|currency|event|faction|item|itemset|npc|object|pet|petability|quest|race|skill|sound|spell|title|transmog-set|zone)",
+         "regex" : "#((\\-){0, 1}[0-9]+)/(?i)([a-z]+)",
+         "link" : "http://www.wowhead.com/\\L$3=$1",
+         "style": "variable.parameter"  // alternatives are: string, invalid, variable, comment, variable.parameter
+      },
+   ]
+}
